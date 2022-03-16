@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { PageHeader, Button, Input, Space, Badge } from 'antd';
 import { ShoppingCartOutlined, MenuOutlined } from '@ant-design/icons';
 import { useMoralis } from "react-moralis";
@@ -21,9 +20,9 @@ const Header = () => {
         extra={[
           <>
             <Link to='/'>
-              <img src={AmazonLogo} className='logo' />
+              <img src={AmazonLogo} className='Amazon' />
             </Link>
-            <img src={BookStore} className='logo' />
+            <img src={BookStore} className='Bookstore' />
             <Search
               placeholder="Find product"
               enterButton
